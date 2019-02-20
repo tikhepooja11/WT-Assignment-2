@@ -1,0 +1,64 @@
+body {
+    background-image: url(myfav.jpg);
+    background-size: 100% auto;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	width: 100%;
+    max-width:100%;
+    height: auto;
+	/*width:100px;
+	height:60px">*/
+}
+
+.multibank_icon{
+
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 30%;
+  width:50px;
+  height:50px;
+
+}
+
+h1{
+   margin-top:20px;
+   margin-left:30%;
+   color:blue;
+   font-size:300%;
+   font-family:Times new roman;
+
+}
+
+.marquee {
+    	
+	
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7EC0EE;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #4CAF50;
+}
+
+.active {
+  background-color: #4CAF50;
+}
